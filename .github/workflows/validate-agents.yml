@@ -10,6 +10,9 @@ on:
       - ".github/agents/**"
       - "scripts/validate-agents.py"
 
+permissions:
+  contents: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest

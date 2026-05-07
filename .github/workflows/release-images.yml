@@ -84,6 +84,7 @@ jobs:
         run: |
           corepack enable
           yarn install --immutable
+          yarn tsc
           yarn build:backend
 
       - name: Extract metadata
@@ -124,6 +125,17 @@ jobs:
           subject-name: ${{ env.REGISTRY }}/${{ env.OWNER }}/${{ matrix.image.name }}
           subject-digest: ${{ steps.build.outputs.digest }}
           push-to-registry: true
+
+      - name: Install cosign
+        uses: sigstore/cosign-installer@v3
+
+      - name: Sign image with cosign (keyless)
+        continue-on-error: true
+        env:
+          COSIGN_EXPERIMENTAL: '1'
+        run: |
+          cosign sign --yes \
+            ${{ env.REGISTRY }}/${{ env.OWNER }}/${{ matrix.image.name }}@${{ steps.build.outputs.digest }}
 
       - name: Scan image with Trivy
         continue-on-error: true

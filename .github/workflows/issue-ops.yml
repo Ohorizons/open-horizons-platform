@@ -6,6 +6,9 @@ on:
     issues:
         types: [opened]
 
+permissions:
+  contents: read
+
 jobs:
     issue-ops:
         if: startsWith(github.event.comment.body, '/') || startsWith(github.event.issue.body, '/')

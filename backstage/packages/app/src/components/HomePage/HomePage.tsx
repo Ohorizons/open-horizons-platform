@@ -8,8 +8,6 @@ import GroupIcon from '@material-ui/icons/Group';
 import StarIcon from '@material-ui/icons/Star';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
-import AccessTimeIcon from '@material-ui/icons/AccessTime';
-import ErrorOutlineIcon from '@material-ui/icons/ErrorOutline';
 import TerminalIcon from '@material-ui/icons/Computer';
 import TimelineIcon from '@material-ui/icons/Timeline';
 import BookIcon from '@material-ui/icons/Book';
@@ -17,18 +15,9 @@ import LaunchIcon from '@material-ui/icons/Launch';
 import LayersIcon from '@material-ui/icons/Layers';
 import HelpIcon from '@material-ui/icons/HelpOutline';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { HeroBanner } from '../shared/HeroBanner';
 import { StyledCard } from '../shared/StyledCard';
-import {
-  AreaChart,
-  Area,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-} from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const deploymentData = [
   { name: 'Mon', deployments: 12, success: 11 },

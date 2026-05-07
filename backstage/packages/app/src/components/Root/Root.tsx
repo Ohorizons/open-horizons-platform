@@ -15,23 +15,12 @@ import BuildIcon from '@material-ui/icons/Build';
 import ScoreIcon from '@material-ui/icons/Score';
 import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 // FlashOnIcon removed — logo removed from sidebar
-import NewReleasesIcon from '@material-ui/icons/NewReleases';
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
-import MenuBookIcon from '@material-ui/icons/MenuBook';
 import ShareIcon from '@material-ui/icons/Share';
 import SettingsIcon from '@material-ui/icons/Settings';
-import DescriptionIcon from '@material-ui/icons/Description';
 import TopBar from './TopBar';
 
-import {
-  Sidebar,
-  sidebarConfig,
-  SidebarGroup,
-  SidebarItem,
-  SidebarPage,
-  SidebarScrollWrapper,
-  SidebarSpace,
-} from '@backstage/core-components';
+import { Sidebar, SidebarGroup, SidebarItem, SidebarPage, SidebarScrollWrapper, SidebarSpace } from '@backstage/core-components';
 import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles({

@@ -12,6 +12,9 @@ on:
 env:
   AGENT_ASSIGNEE: 'copilot-swe-agent'  # Change to your Copilot Coding Agent
 
+permissions:
+  contents: read
+
 jobs:
   # Job 1: Route single-agent issues
   route-agent:
