@@ -37,6 +37,9 @@ concurrency:
 env:
   REQUIRED_APPROVALS: 1
 
+permissions:
+  contents: read
+
 jobs:
   # ===========================================================================
   # VALIDATE PR SOURCE BRANCH

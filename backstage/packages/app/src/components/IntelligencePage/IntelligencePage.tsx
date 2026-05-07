@@ -20,7 +20,6 @@ import SpeedIcon from '@material-ui/icons/Speed';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import TimelineIcon from '@material-ui/icons/Timeline';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import BuildIcon from '@material-ui/icons/Build';

@@ -9,19 +9,7 @@
  */
 
 import { useState, useEffect } from 'react';
-import {
-  Typography,
-  Grid,
-  Box,
-  CircularProgress,
-  ButtonGroup,
-  Button,
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableRow,
-} from '@material-ui/core';
+import { CircularProgress, ButtonGroup, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import TimelineIcon from '@material-ui/icons/Timeline';
 import SpeedIcon from '@material-ui/icons/Speed';
@@ -33,17 +21,7 @@ import { Page, Content } from '@backstage/core-components';
 import { configApiRef, useApi } from '@backstage/core-plugin-api';
 import { HeroBanner } from '../shared/HeroBanner';
 import { StyledCard } from '../shared/StyledCard';
-import {
-  BarChart,
-  Bar,
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-} from 'recharts';
+import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 /* ------------------------------------------------------------------ */
 /*  Types & constants                                                  */

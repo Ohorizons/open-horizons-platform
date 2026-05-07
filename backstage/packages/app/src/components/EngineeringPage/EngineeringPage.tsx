@@ -6,7 +6,6 @@
  * Copilot Analytics, Lighthouse, and Validation.
  */
 
-import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Chip } from '@material-ui/core';
 import { Page, Content } from '@backstage/core-components';

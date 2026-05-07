@@ -6,14 +6,6 @@ import { Box, Button, CircularProgress, Typography, makeStyles } from '@material
 // ─── Constants ───────────────────────────────────────────────────────────────
 const VIDEO_URL = '/Open-Horizons-Demo.mp4'; // Local demo video
 
-const STATS = [
-  { value: '22', label: 'Golden Paths' },
-  { value: '17', label: 'AI Agents' },
-  { value: '16', label: 'Terraform Modules' },
-  { value: '15', label: 'MCP Servers' },
-  { value: '120+', label: 'Platform Files' },
-];
-
 const EVOLUTIONS = [
   {
     gen: '01', title: 'DevOps', color: '#00A4EF',

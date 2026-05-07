@@ -6,11 +6,8 @@ import AppsIcon from '@material-ui/icons/Apps';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 import SearchIcon from '@material-ui/icons/Search';
 import SettingsIcon from '@material-ui/icons/Settings';
-import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import { Link, useNavigate } from 'react-router-dom';
 import { useApi, githubAuthApiRef } from '@backstage/core-plugin-api';
-import { MicrosoftStripe } from '../shared/MicrosoftStripe';
-
 const useStyles = makeStyles({
   wrapper: {
     position: 'fixed',

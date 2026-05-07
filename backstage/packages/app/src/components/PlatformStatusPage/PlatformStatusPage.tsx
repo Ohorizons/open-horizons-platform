@@ -1,5 +1,3 @@
-import React from 'react';
-import { Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import SpeedIcon from '@material-ui/icons/Speed';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
