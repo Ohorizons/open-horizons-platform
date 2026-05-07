@@ -139,7 +139,7 @@ jobs:
 
       - name: Scan image with Trivy
         continue-on-error: true
-        uses: aquasecurity/trivy-action@master
+        uses: aquasecurity/trivy-action@0.34.0
         with:
           image-ref: ${{ env.REGISTRY }}/${{ env.OWNER }}/${{ matrix.image.name }}@${{ steps.build.outputs.digest }}
           format: sarif
