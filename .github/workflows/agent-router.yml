@@ -478,13 +478,14 @@ jobs:
         if: env.TEAMS_WEBHOOK != ''
         env:
           TEAMS_WEBHOOK: ${{ secrets.TEAMS_WEBHOOK }}
+          AGENT: ${{ needs.route-agent.outputs.agent }}
+          ENVIRONMENT: ${{ needs.route-agent.outputs.environment }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          ACTOR: ${{ github.actor }}
         run: |
-          AGENT="${{ needs.route-agent.outputs.agent }}"
-          ENVIRONMENT="${{ needs.route-agent.outputs.environment }}"
-          ISSUE_TITLE="${{ github.event.issue.title }}"
-          ISSUE_URL="${{ github.event.issue.html_url }}"
-          ACTOR="${{ github.actor }}"
-          
+          # All inputs come from env vars (set above) to prevent script injection
+          # via untrusted issue/comment content.
           curl -H "Content-Type: application/json" -d '{
             "@type": "MessageCard",
             "@context": "http://schema.org/extensions",
