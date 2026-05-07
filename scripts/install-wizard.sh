@@ -922,7 +922,7 @@ emit_handoff() {
     org_default="${org_default:-Ohorizons}"
     echo "  ./scripts/setup-identity-federation.sh \\"
     echo "    --github-org $org_default \\"
-    echo "    --github-repo ohorizons-demo \\"
+    echo "    --github-repo open-horizons-platform \\"
     echo "    --resource-group rg-${ENVIRONMENT}-openhorizons"
   fi
 
@@ -1016,8 +1016,8 @@ prompt_initial_setup() {
     MCP_ECOSYSTEM_IMAGE="${ACR_NAME}.azurecr.io/mcp-ecosystem"
   fi
 
-  read -r -p "  Image tag [v7.2.2]: " IMAGE_TAG
-  IMAGE_TAG="${IMAGE_TAG:-v7.2.2}"
+  read -r -p "  Image tag [v7.2.4]: " IMAGE_TAG
+  IMAGE_TAG="${IMAGE_TAG:-v7.2.4}"
 
   echo
 

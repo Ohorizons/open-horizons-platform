@@ -5,6 +5,43 @@ All notable changes to the Open Horizons Platform will be documented in this fil
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [7.2.4] - 2026-05-07
+
+### Security
+- Re-enabled `yarn tsc` strict check in `release-images` workflow (removed 22 unused TS imports across 8 components).
+- Added **cosign** keyless signing (sigstore) for every published container image.
+- Added **CodeQL** workflow for JavaScript/TypeScript, Python, and GitHub Actions (`security-extended` queries + weekly schedule).
+- Added **PR security scans** workflow: gitleaks, Trivy filesystem, Trivy IaC; SARIF uploaded to Security tab.
+- Applied least-privilege top-level `permissions: contents: read` to 5 workflows that lacked them (agent-router, branch-protection, cd, issue-ops, validate-agents).
+- Branch protection: enabled `enforce_admins`, required 6 status checks, kept code-owner reviews, dismiss-stale, linear history, conversation resolution.
+- Enabled secret scanning + push protection + non-provider patterns + validity checks.
+
+### Added
+- `CODE_OF_CONDUCT.md` (Contributor Covenant 2.1).
+- `release-images.yml` workflow: multi-arch (amd64+arm64) GHCR publish on every `vX.Y.Z` tag, with SBOM + SLSA provenance attestations and Trivy image scan.
+
+### Changed
+- All public-facing repository URLs updated from `Ohorizons/ohorizons-demo` to `Ohorizons/open-horizons-platform`.
+- Default image tag in `install-wizard.sh` and Backstage catalogs bumped to `v7.2.4`.
+
+### Published images (all public, multi-arch, signed)
+- `ghcr.io/ohorizons/ohorizons-backstage:v7.2.4`
+- `ghcr.io/ohorizons/ohorizons-agent-api:v7.2.4`
+- `ghcr.io/ohorizons/ohorizons-agent-api-impact:v7.2.4`
+
+## [7.2.2] - 2026-05-06
+
+### Added
+- Initial public release of `Ohorizons/open-horizons-platform` as the customer-facing forkable template.
+- 34 Golden Paths (H1 Foundation, H2 Enhancement, H3 Innovation).
+- 19 Copilot Chat Agents, 27 skills, 16 prompts, 8 instructions.
+- 7 runtime agents (orchestrator, pipeline, sentinel, compass, guardian, lighthouse, forge).
+- 12 MCP server tool files.
+- 16 Terraform modules for Azure (AKS, networking, Key Vault, PostgreSQL, ACR, External Secrets, etc.).
+- Backstage developer portal + ArgoCD GitOps + Prometheus/Grafana observability.
+- Interactive `scripts/install-wizard.sh`.
+- Full documentation under `docs/guides/` (Master Installation, Deployment, Wizard, Architecture, Troubleshooting, etc.).
+
 ## [Unreleased]
 
 ### Added

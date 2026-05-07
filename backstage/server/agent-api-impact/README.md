@@ -37,7 +37,7 @@ Backstage UI → /api/proxy/agent-api-impact/* → FastAPI (port 8011) → GitHu
 | `AZURE_OPENAI_DEPLOYMENT` | No | `gpt-5-1` | Deployment name |
 | `GITHUB_TOKEN` | Yes | — | GitHub PAT for API access |
 | `GITHUB_ORG` | No | `Ohorizons` | GitHub organization |
-| `GITHUB_REPO` | No | `ohorizons-demo` | Target repository |
+| `GITHUB_REPO` | No | `open-horizons-platform` | Target repository |
 | `CORS_ORIGINS` | No | `http://localhost:3000,http://localhost:7007` | Comma-separated allowed origins |
 | `HOST` | No | `0.0.0.0` | Server bind address |
 | `PORT` | No | `8011` | Server port |

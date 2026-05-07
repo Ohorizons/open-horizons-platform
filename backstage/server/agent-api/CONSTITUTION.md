@@ -26,7 +26,7 @@ When trade-offs arise, agents prioritize in this order:
 
 | Repository | Description |
 |---|---|
-| ohorizons-demo | Main platform — Backstage, ArgoCD, Golden Paths, Terraform |
+| open-horizons-platform | Main platform — Backstage, ArgoCD, Golden Paths, Terraform |
 | todo-app-full-stack | Full-stack Todo app scaffolded from Golden Path |
 | todo-app | Simple Todo app |
 | backstage | Backstage framework fork |

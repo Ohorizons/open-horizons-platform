@@ -24,10 +24,10 @@ The platform is organized into three adoption stages:
 
 | Image | Tag | Registry |
 |-------|-----|----------|
-| `ohorizons-backstage` | `v7.2.2` | GHCR (public) |
-| `ohorizons-agent-api` | `v7.2.2` | GHCR (public) |
-| `ohorizons-agent-api-impact` | `v7.2.0` | GHCR (public) |
-| `mcp-ecosystem` | `v7.2.0` | GHCR (public) |
+| `ohorizons-backstage` | `v7.2.4` | GHCR (public) |
+| `ohorizons-agent-api` | `v7.2.4` | GHCR (public) |
+| `ohorizons-agent-api-impact` | `v7.2.4` | GHCR (public) |
+| `mcp-ecosystem` | `v7.2.4` | GHCR (public) |
 
 **Tag format**: `v<semver>-<suffix>` — Never use `:latest` in deployment manifests.
 

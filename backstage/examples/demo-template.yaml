@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: ohorizons-demo-service
+  name: open-horizons-platform-service
   title: Open Horizons Demo Service
   description: Minimal working template for end-to-end demo flows.
   tags:

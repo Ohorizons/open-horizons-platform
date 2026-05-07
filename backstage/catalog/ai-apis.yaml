@@ -15,14 +15,14 @@ metadata:
     agents via @mention or keyword detection. Supports conversation memory and
     tool invocation with real GitHub API calls.
   annotations:
-    github.com/project-slug: Ohorizons/ohorizons-demo
+    github.com/project-slug: Ohorizons/open-horizons-platform
   tags:
     - rest
     - sse
     - ai
     - agents
   links:
-    - url: https://github.com/Ohorizons/ohorizons-demo/blob/main/backstage/server/agent-api/main.py
+    - url: https://github.com/Ohorizons/open-horizons-platform/blob/main/backstage/server/agent-api/main.py
       title: API Source
       icon: github
 spec:
@@ -56,7 +56,7 @@ spec:
                   properties:
                     message:
                       type: string
-                      description: "User message. Use @mention to target an agent (e.g. @pipeline check the build on ohorizons-demo)"
+                      description: "User message. Use @mention to target an agent (e.g. @pipeline check the build on open-horizons-platform)"
                     conversation_id:
                       type: string
                       description: Conversation ID for memory continuity
@@ -105,7 +105,7 @@ metadata:
     Returns metadata about all registered agents — names, display names,
     descriptions, available tools, and model configuration.
   annotations:
-    github.com/project-slug: Ohorizons/ohorizons-demo
+    github.com/project-slug: Ohorizons/open-horizons-platform
   tags:
     - rest
     - ai
@@ -170,7 +170,7 @@ metadata:
     Agentic AI impact assessment API. Analyzes platform metrics, generates
     executive insights, and provides ROI calculations for the agent system.
   annotations:
-    github.com/project-slug: Ohorizons/ohorizons-demo
+    github.com/project-slug: Ohorizons/open-horizons-platform
   tags:
     - rest
     - ai
