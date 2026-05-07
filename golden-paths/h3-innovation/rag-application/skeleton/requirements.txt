@@ -10,9 +10,9 @@ azure-search-documents==11.4.0
 openai==1.12.0
 
 # LangChain
-langchain==0.1.5
-langchain-openai==0.0.5
-langchain-community==0.0.17
+langchain==0.3.21
+langchain-openai==0.2.14
+langchain-community==0.3.21
 
 # Document processing
 pypdf==4.0.1
