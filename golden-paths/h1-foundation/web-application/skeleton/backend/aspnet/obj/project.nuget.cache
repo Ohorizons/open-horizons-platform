@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yqVTcPwuWkc=",
+  "success": true,
+  "projectFilePath": "/Users/paulasilva/Documents/Claude/Projects/DEMO/ohorizons-demo/golden-paths/h1-foundation/web-application/skeleton/backend/aspnet/${{ values.appName }}.csproj",
+  "expectedPackageFiles": [
+    "/Users/paulasilva/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/paulasilva/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/paulasilva/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}
