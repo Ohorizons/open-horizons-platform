@@ -315,6 +315,7 @@ Alternatively, use the Copilot deploy agent from VS Code:
 
 | Guide | When to Use |
 |:------|:------------|
+| **[Prerequisites & Sizing](docs/guides/PREREQUISITES.md)** | **Read first.** Azure tenant/subscription, GitHub/GHE, ADO, t-shirt sizing, region selection, cost estimates |
 | **[Master Installation Guide](docs/guides/MASTER_INSTALLATION.md)** | Single source of truth covering every layer and feature end to end |
 | **[Deployment Guide](docs/guides/DEPLOYMENT_GUIDE.md)** | First deployment, step-by-step (3 options) |
 | **[Wizard Guide](docs/guides/WIZARD_GUIDE.md)** | What developers see in Backstage and how the Azure deploy toggle works |

@@ -243,6 +243,8 @@ The manifest is validated against [`scripts/openhorizons-selection.schema.json`]
 
 ## Stage 0 - Prerequisites
 
+> **Detailed prerequisites guide:** [PREREQUISITES.md](PREREQUISITES.md) covers Azure tenant/subscription requirements, GitHub / GitHub Enterprise / Azure DevOps setup, t-shirt sizing (Small / Medium / Large / XLarge), region selection, cost estimates, and a pre-deployment checklist. Read it first.
+
 | Capability | Why it is required |
 |-----------|--------------------|
 | Azure subscription with Owner or User Access Administrator | Create RGs, assign RBAC, enable OIDC |
