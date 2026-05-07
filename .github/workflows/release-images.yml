@@ -84,7 +84,7 @@ jobs:
         run: |
           corepack enable
           yarn install --immutable
-          yarn build:backend --config app-config.yaml --config app-config.production.yaml
+          yarn build:backend
 
       - name: Extract metadata
         id: meta
