@@ -72,6 +72,21 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Setup Node.js (Backstage only)
+        if: matrix.image.name == 'ohorizons-backstage'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build Backstage bundle
+        if: matrix.image.name == 'ohorizons-backstage'
+        working-directory: backstage
+        run: |
+          corepack enable
+          yarn install --immutable
+          yarn tsc
+          yarn build:backend --config app-config.yaml --config app-config.production.yaml
+
       - name: Extract metadata
         id: meta
         uses: docker/metadata-action@v5
