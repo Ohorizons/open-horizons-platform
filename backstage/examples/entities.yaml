@@ -19,7 +19,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     argocd/app-name: ohorizons-backstage
-    github.com/project-slug: Ohorizons/ohorizons-demo
+    github.com/project-slug: Ohorizons/open-horizons-platform
   tags:
     - gitops
     - argocd
@@ -43,7 +43,7 @@ metadata:
   description: Observability platform — Prometheus metrics, Grafana dashboards, Loki logs, and Alertmanager alerts.
   annotations:
     grafana/dashboard-selector: 'tag:open-horizons'
-    github.com/project-slug: Ohorizons/ohorizons-demo
+    github.com/project-slug: Ohorizons/open-horizons-platform
   tags:
     - observability
     - grafana

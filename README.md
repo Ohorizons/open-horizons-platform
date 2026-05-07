@@ -69,7 +69,7 @@ Platform Engineering (foundation)
 <td width="50%">
 
 ### Agent IDP
-- **18 Copilot Chat Agents** — role-based AI assistants
+- **19 Copilot Chat Agents** — role-based AI assistants
 - **7 Runtime Agents** — production agentic APIs
 - **12 MCP Server Tools** — context protocol integration
 - **Trajectory Logging** — every decision recorded
@@ -365,7 +365,7 @@ Alternatively, use the Copilot deploy agent from VS Code:
 - GitHub Copilot
 - Microsoft Agent Framework
 - Semantic Kernel
-- 18 Copilot Chat Agents
+- 19 Copilot Chat Agents
 
 </td>
 <td>
@@ -390,7 +390,7 @@ Alternatively, use the Copilot deploy agent from VS Code:
 
 Deploy Open Horizons and bring Agentic DevOps to your organization.
 
-[Deploy Now](#get-started) | [GitHub](https://github.com/Ohorizons/ohorizons-demo)
+[Deploy Now](#get-started) | [GitHub](https://github.com/Ohorizons/open-horizons-platform)
 
 *Open Horizons — Agentic DevOps Platform Accelerator*
 

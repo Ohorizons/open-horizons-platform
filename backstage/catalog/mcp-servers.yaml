@@ -17,14 +17,14 @@ metadata:
     methodology reference, and agent skill discovery. Runs as a sidecar in
     the ai-services namespace on AKS.
   annotations:
-    github.com/project-slug: Ohorizons/ohorizons-demo
-    ohorizons.ai/image: acrohorizonsdev.azurecr.io/mcp-ecosystem:v7.2.0-demo
+    github.com/project-slug: Ohorizons/open-horizons-platform
+    ohorizons.ai/image: acrohorizonsdev.azurecr.io/mcp-ecosystem:v7.2.4
   tags:
     - mcp
     - ecosystem
     - h3-innovation
   links:
-    - url: https://github.com/Ohorizons/ohorizons-demo/tree/main/mcp-servers
+    - url: https://github.com/Ohorizons/open-horizons-platform/tree/main/mcp-servers
       title: MCP Server Source
       icon: github
 spec:

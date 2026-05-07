@@ -977,7 +977,7 @@ The wizard will ask for:
 | Setting | Description | Example |
 |---------|-------------|---------|
 | GitHub Organization | Your GitHub org/user | `contoso` |
-| GitHub Repository | Your fork name | `ohorizons-demo` |
+| GitHub Repository | Your fork name | `open-horizons-platform` |
 | Platform Name | K8s resource prefix | `myplatform` |
 | Domain | Custom domain (optional) | `portal.contoso.com` |
 | Auth Provider | `github`, `entra`, or `guest` | `github` |
