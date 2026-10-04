@@ -4,7 +4,7 @@ This directory contains automated tests for Terraform modules using [Terratest](
 
 ## Prerequisites
 
-- Go 1.21+
+- Go 1.25+
 - Terraform 1.5+
 - Azure CLI (authenticated)
 

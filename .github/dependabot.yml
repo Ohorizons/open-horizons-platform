@@ -90,9 +90,11 @@ updates:
     reviewers:
       - "platform-team"
 
-  # npm dependencies (for any Node.js tooling)
+  # npm dependencies: the Backstage workspace and the MCP ecosystem server
   - package-ecosystem: "npm"
-    directory: "/"
+    directories:
+      - "/backstage"
+      - "/mcp-servers"
     schedule:
       interval: "weekly"
       day: "thursday"
